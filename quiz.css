@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #54c3ef;
+    padding-bottom: 50px;
+}
+.quiz-container{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    /* padding: 20px 10px; */
+    position: relative;
+     /* height: 800px;  */
+     overflow: auto;
+     /* padding-bottom: 20px; */
+}
+.main h1{
+    text-align: center;
+    margin-right: 25%;
+    /* margin-top: 10%; */
+    /* margin-bottom: 10%; */
+    color: #fad744;
+    font-family: 'Caveat Brush', cursive;
+}
+#quiz{
+    background-color: #2b3252;
+    color: #fad744;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#quiz h2{
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.score-card{
+    background-color: #fff;
+    width: 15%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 50px;
+    /* position: fixed; */
+    top: 0;
+    /* left: 68%; */
+}
+.score-card p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.score-card h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.line{
+    background-color: #fad744;
+    height: 2px;
+    width: 96%;
+    margin: 10px auto;
+    /* padding-bottom: 20px; */
+
+}
+.line:last-child{
+    margin-bottom: 100px;
+}
+label{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+label span{
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#submit-btn{
+    position: relative;
+    top: 93%;
+    left: 35%;
+    padding: 6px 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #fad744;
+    
+}
+
+#submit-btn a{
+    text-decoration: none;
+    color: #333;
+}

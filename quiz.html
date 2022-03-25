@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+<body>
+    <div class="main">
+        <h1 >The Quiz App</h1>
+        <div class="quiz-container">
+            <div id="quiz">
+
+            <button id="submit-btn" onclick="checkResult()"><a href="./quiz.html#score-container">Submit Quiz</a></button>
+            </div>
+            <div id="score-container" class="score-card">
+                <p>Score</p>
+                <h3><span id="score">0</span>/5</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+</body>
+</html>
